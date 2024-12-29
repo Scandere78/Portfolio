@@ -1,10 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
+import { Socials } from '../constants'
 
 const Navbar = () => {
   return (
     <div className='fixed top-0 z-[40] w-full h-[100px] bg-transparent flex justify-between items-center px10 md:px-20'>
         <div className='flex flex-row gap-3 items-center'>
+          <div className='relative'>
             <Image 
                 src="/T-logo.jpg"
                 alt="logo"
@@ -12,6 +14,21 @@ const Navbar = () => {
                 height={40}
                 className='w-full h-full object-contain rounded-full'
             />
+          </div>
+            <h1 className='text-white text-[25px] font-semibold'>Scandere TEJ</h1>
+        </div>
+
+        <div className='flex flex-row gap-5 mb-2'>
+          {Socials.map((social) =>(
+            <Image
+                key={social.name}
+                src={social.src}
+                alt={social.name}
+                width={30}
+                height={30}
+            />
+          ))}
+
         </div>
     </div>
   )
