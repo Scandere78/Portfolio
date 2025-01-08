@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { Socials } from '../constants'
+import { Socials } from '../src/app/constants'
 
 const Navbar = () => {
   return (
