@@ -25,14 +25,14 @@ export default function Home() {
               Learn more
             </Link>
             <Link 
-            href="/mes-projets" 
+            href="/my-projects" 
             className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
             >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20"/>
               Mes Projets
             </Link>
             <Link 
-            href="/contactez-moi"
+            href="/contact-me"
             className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
             >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20"/>

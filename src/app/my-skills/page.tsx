@@ -23,7 +23,7 @@ const Page = () => {
             Technologies
           </h1>
           <p className="text-gray-400 text-[20px]">
-            Les Stack techniques que j'utilise
+            Les Stack techniques que jutilise
           </p>
         </div>
         <Swiper

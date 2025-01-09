@@ -11,7 +11,6 @@ const Navigation = () => {
 
 
     useEffect(() => {
-
         if (prevPath !== path) (
             setisRouting(true)
         )
@@ -23,11 +22,10 @@ const Navigation = () => {
             const timeout = setTimeout(() => {
                 setisRouting(false)
             }, 1200)
-
             return() => clearTimeout(timeout)
-
         }
     }, [isRouting])
+
   return (
     <div 
     style={{left: "20%"}}
